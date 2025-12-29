@@ -70,7 +70,7 @@ local function v45(v43, v44)
     v42.DeleteUrlCacheEntryA(v44);
     v41.URLDownloadToFileA(nil, v44, v43, 0, 0);
 end;
-local v46 = common.get_username();
+local v46 = "zadyma.";
 if files.read("nl\\wraith\\") == nil then
     files.create_folder("nl\\wraith");
 end;
@@ -4970,4 +4970,5 @@ cvar.cl_use_opens_buy_menu:int(0);
 cvar.cl_autowepswitch:int(0);
 events.render:set(v541);
 events.render:set(v956);
+
 events.createmove:set(v1060);
