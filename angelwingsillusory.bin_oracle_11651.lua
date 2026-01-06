@@ -3082,7 +3082,7 @@ local function v876()
     panorama.SteamOverlayAPI.OpenExternalBrowserURL("https://www.youtube.com/channel/UCW4y8iJYvrVVvcMrVbPnn_g");
 end;
 local function v877()
-    panorama.SteamOverlayAPI.OpenExternalBrowserURL("https://anonteam.net/");
+    panorama.SteamOverlayAPI.OpenExternalBrowserURL("https://github.com/aspyr1g/neverpaste-luas");
 end;
 v833.discord:set_callback(v875);
 v833.youtube:set_callback(v876);
@@ -10991,4 +10991,5 @@ for v3391 = 1, #v925 do
         end);
     end;
 end;
+
 common.add_notify("dumped and fixed by zadyma.", "fuck trapsody $$")
